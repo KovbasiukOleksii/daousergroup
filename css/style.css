@@ -61,9 +61,7 @@
 
 #content {
 	width: 100%;
-	box-shadow: 0px 0px 4px #000000;
-	border-radius: 5px;ы
-
+	height: 90vh;
 }
 
 #content .first_title {
