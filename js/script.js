@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 
 	$('#groupMenu #nav li a').click(function(){
-								  
+		
 		var toLoad = $(this).attr('href')+' #content';
 		$('#content').hide('fast',loadContent);
 		$('#load').remove();
@@ -31,3 +31,4 @@ $(document).ready(function() {
 	});
 
 });
+
